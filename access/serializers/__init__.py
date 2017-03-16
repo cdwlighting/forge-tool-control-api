@@ -3,8 +3,10 @@
 """
 from __future__ import unicode_literals
 
-from .GroupSerializer import GroupSerializer
-from .UserSerializer import UserSerializer
-from .ProfileSerializer import ProfileSerializer
-from .DepartmentSerializer import DepartmentSerializer
-
+from MachineSerializer import MachineSerializer
+from ProfileSerializer import ProfileSerializer
+from UserSerializer import UserSerializer
+from AccessLevelSerializer import AccessLevelSerializer
+from GroupSerializer import GroupSerializer
+from DepartmentSerializer import DepartmentSerializer
+from LogEntrySerializer import LogEntrySerializer

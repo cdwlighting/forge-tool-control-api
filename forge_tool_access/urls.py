@@ -27,6 +27,8 @@ router.register(r'groups', views.GroupViewSet)
 router.register(r'departments', views.DepartmentViewSet)
 router.register(r'accesslevels', views.AccessLevelViewSet)
 router.register(r'machines', views.MachineViewSet)
+router.register(r'profiles', views.ProfileViewSet)
+router.register(r'logentries', views.LogEntryViewSet)
 urlpatterns = [
     url(r'^schema/$', schema_view),
     url(r'^', include(router.urls)),

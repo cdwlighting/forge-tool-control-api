@@ -1,7 +1,6 @@
-from .AccessLevel import *
-from .Profile import *
-from .Department import *
-from .Machine import *
-from .Reservation import *
-from .LogEntry import *
-
+from AccessLevel import AccessLevel
+from Profile import Profile
+from Department import Department
+from Machine import Machine
+from Reservation import Reservation
+from LogEntry import LogEntry

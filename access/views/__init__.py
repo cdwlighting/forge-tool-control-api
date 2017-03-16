@@ -7,3 +7,4 @@ from .DepartmentViewSet import DepartmentViewSet
 from .AccessLevelViewSet import AccessLevelViewSet
 from .MachineViewSet import MachineViewSet
 from .LogEntryViewSet import LogEntryViewSet
+from .ProfileViewSet import ProfileViewSet

@@ -11,7 +11,7 @@ from access.serializers import MachineSerializer
 
 class MachineViewSet(viewsets.ModelViewSet):
     """
-    This is hte Machine View Set
+    This is the Machine View Set
     """
     queryset = Machine.objects.all()
     serializer_class = MachineSerializer
