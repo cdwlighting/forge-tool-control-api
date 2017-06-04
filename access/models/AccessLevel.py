@@ -13,6 +13,9 @@ from django.db import models
 from .Profile import Profile
 from .Machine import  Machine
 
+class AccessLevelManager(models.Manager):
+    def all(self):
+        pass
 
 class AccessLevel(models.Model):
     """
@@ -30,3 +33,4 @@ class AccessLevel(models.Model):
     access_level = models.CharField(max_length=10, default="NONE")
     profile = models.ForeignKey(Profile, null=True)
     machine = models.ForeignKey(Machine, null=True, blank=True)
+    #objects = AccessLevelManager()

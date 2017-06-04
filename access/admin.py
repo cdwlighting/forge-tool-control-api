@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from .models import AccessLevel, Profile, Department, Reservation, Machine
-from .models import LogEntry
+from models import AccessLevel, Profile, Department, Reservation, Machine
+from models import LogEntry
 
 
 admin.site.register(AccessLevel)

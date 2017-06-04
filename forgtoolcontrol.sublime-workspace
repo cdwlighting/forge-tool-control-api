@@ -1,0 +1,239 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Virtual",
+				"Virtualenv: Activate"
+			],
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 216.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/chris/projects/web/python/django/forge-tool-control-api",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/models",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/serializers",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/integration",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/models",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/models/managers",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/views",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/views",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/forge_tool_access"
+	],
+	"file_history":
+	[
+		"/home/chris/projects/web/python/django/forge-tool-control-api/forge_tool_access/urls.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/views/AccessRequestView.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/serializers/AccessLevelRequestSerializer.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/serializers/AccessResponseSerializer.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/models/AccessLevel.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/models/Profile.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/models/Machine.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/models/managers/ProfileMangerTest.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/views/access_request_test.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/models/__init__.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/views/__init__.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/views/AccessLevelViewSet.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/views/LogEntryViewSet.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/views/MachineViewSet.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/admin.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/models/managers/__init__.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/models/AccessRequest.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/__init__.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/__init__.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/models/__init__.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/views/__init__.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/serializers/AccessLevelRequest.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/models/Department.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/views/testtoolaccess.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/requirements.txt",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/integration/AccessRequestTests.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/views/ToolAccess.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/test/unit/helpers/testAccessRequestHelper.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/access/__init__.py",
+		"/home/chris/projects/web/python/django/forge-tool-control-api/docker-compose.yml",
+		"/home/chris/projects/web/python/django/designtesting/requirements.txt",
+		"/home/chris/projects/web/python/django/designtesting/Testing1/manage.py",
+		"/home/chris/.config/sublime-text-3/Packages/User/Python (Django).sublime-settings",
+		"/home/chris/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/chris/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/chris/.config/sublime-text-3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/home/chris/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/chris/projects/web/python/django/forge-tool-control-api"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

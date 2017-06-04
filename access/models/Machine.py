@@ -10,6 +10,8 @@ from django.db import models
 
 from .Department import Department
 
+class MachineManager(models.Manager):
+	pass
 
 class Machine(models.Model):
     """ Machine Model.
@@ -19,3 +21,5 @@ class Machine(models.Model):
     mac_address = models.CharField(max_length=15)
     machine_name = models.CharField(max_length=128)
     department = models.ForeignKey(Department)
+
+    objects = MachineManager()

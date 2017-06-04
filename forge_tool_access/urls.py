@@ -32,6 +32,7 @@ router.register(r'logentries', views.LogEntryViewSet)
 urlpatterns = [
     url(r'^schema/$', schema_view),
     url(r'^', include(router.urls)),
+    url(r'^access_request/$', views.AccessRequestView.as_view(), name='access_request'),
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include('rest_framework.urls', namespace='rest_framework'))
 ]

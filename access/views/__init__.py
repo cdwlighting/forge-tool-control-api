@@ -8,3 +8,4 @@ from .AccessLevelViewSet import AccessLevelViewSet
 from .MachineViewSet import MachineViewSet
 from .LogEntryViewSet import LogEntryViewSet
 from .ProfileViewSet import ProfileViewSet
+from .AccessRequestView import AccessRequestView

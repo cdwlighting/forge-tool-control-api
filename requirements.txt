@@ -3,4 +3,5 @@ psycopg2
 djangorestframework
 coreapi
 mock
-
+pyyaml
+factory_boy
