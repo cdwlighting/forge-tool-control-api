@@ -25,5 +25,5 @@ class LogEntry(models.Model):
     )
     created_at = models.DateTimeField()
     entry_type = models.CharField(max_length=3, choices=LOG_ENTRY_TYPES)
-    profile = models.ForeignKey(Profile, related_name='logEntries', null=False, default=0)
-    machine = models.ForeignKey(Machine, related_name='logEntries', null=False)
+    profile = models.ForeignKey(Profile, related_name='logEntries', null=False, default=0, on_delete=models.CASCADE)
+    machine = models.ForeignKey(Machine, related_name='logEntries', null=False, on_delete=models.CASCADE)

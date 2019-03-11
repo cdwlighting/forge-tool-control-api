@@ -94,3 +94,6 @@ ENV/
 # Vim
 *.swp
 *.swo
+
+.env
+*sqlite.db

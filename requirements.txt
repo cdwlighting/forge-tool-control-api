@@ -1,6 +1,2 @@
-Django
-psycopg2
-djangorestframework
-coreapi
-mock
+-r requirements/prod.txt
 

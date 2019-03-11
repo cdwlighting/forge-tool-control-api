@@ -28,5 +28,5 @@ class AccessLevel(models.Model):
         ('NONE', 'No Access to the Machine'),
     )
     access_level = models.CharField(max_length=10, default="NONE")
-    profile = models.ForeignKey(Profile, null=True)
-    machine = models.ForeignKey(Machine, null=True, blank=True)
+    profile = models.ForeignKey(Profile, null=True, on_delete=models.CASCADE)
+    machine = models.ForeignKey(Machine, null=True, blank=True, on_delete=models.CASCADE)

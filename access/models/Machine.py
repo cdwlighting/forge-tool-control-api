@@ -18,4 +18,4 @@ class Machine(models.Model):
     """
     mac_address = models.CharField(max_length=15)
     machine_name = models.CharField(max_length=128)
-    department = models.ForeignKey(Department)
+    department = models.ForeignKey(Department, on_delete=models.CASCADE)

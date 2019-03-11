@@ -27,5 +27,5 @@ class Reservation(models.Model):
     start_time = models.TimeField()
     end_date = models.DateField()
     end_time = models.TimeField()
-    machine = models.ForeignKey(Machine)
-    member = models.ForeignKey(User)
+    machine = models.ForeignKey(Machine, on_delete=models.CASCADE)
+    member = models.ForeignKey(User, on_delete=models.CASCADE)
